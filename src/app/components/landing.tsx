@@ -14,7 +14,7 @@ export function HeroPage() {
           role="alert"
         >
           <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span>{' '}
-          <span className="text-sm font-medium">{`SpeakMentor is out! See what's new`}</span>
+          <span className="text-sm font-medium">{`WhatCanICook is out! See what's new`}</span>
           <ChevronRightIcon className="w-4 h-4" />
         </Link>
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-black">
