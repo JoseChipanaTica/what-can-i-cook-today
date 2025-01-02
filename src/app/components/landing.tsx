@@ -80,7 +80,11 @@ export function FooterPage() {
 
         <div className="flex justify-center items-center">
           <div>
-            <Link href="https://github.com/JoseChipanaTica/speak-mentor" target="_blank" className="hover:text-primary">
+            <Link
+              href="https://github.com/JoseChipanaTica/what-can-i-cook-today"
+              target="_blank"
+              className="hover:text-primary"
+            >
               <GithubIcon />
             </Link>
           </div>
