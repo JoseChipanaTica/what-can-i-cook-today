@@ -1,7 +1,6 @@
 'use client'
 
 import { ChevronRightIcon, GithubIcon, XIcon } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 export function HeroPage() {
@@ -9,8 +8,10 @@ export function HeroPage() {
     <section className="text-white">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 space-y-10">
         <Link
-          href="#"
-          className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full   hover:bg-gray-200"
+          href="https://github.com/JoseChipanaTica/what-can-i-cook-today"
+          target="_blank"
+          className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm
+           text-gray-700 bg-gray-100 rounded-full hover:bg-gray-200 cursor-pointer"
           role="alert"
         >
           <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span>{' '}
@@ -21,8 +22,7 @@ export function HeroPage() {
           What can I cook today? 🍳
         </h1>
         <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 text-black">
-          WhatCanICook helps you find recipes based on the ingredients you have at home. You can also search for recipes
-          by name.
+          WhatCanICook helps you to generate recipe based on the ingredients you have at home.
         </p>
       </div>
     </section>
@@ -33,22 +33,11 @@ export function ContentPage() {
   return (
     <section className="">
       <div className="flex flex-col text-center items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div className="font-light text-gray-200 sm:text-lg">
-          <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-white">
-            Speak & Practice your speaking skills
-          </h2>
-          <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 text-gray-400">
-            SpeakMentor helps you practice your speaking skills by providing feedback on your pronunciation and grammar.
+        <div className="font-light text-black sm:text-lg">
+          <h2 className="mb-4 text-2xl tracking-tight font-extrabold ">Generate a recipe for you!</h2>
+          <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 xl:px-48">
+            Upload an image of the ingredients you have at home and we will generate a recipe for you.
           </p>
-        </div>
-        <div className="p-4">
-          <Image
-            className="w-full rounded-lg shadow-lg shadow-primary"
-            src="/feature.png"
-            alt="office content 1"
-            width={800}
-            height={600}
-          />
         </div>
       </div>
     </section>

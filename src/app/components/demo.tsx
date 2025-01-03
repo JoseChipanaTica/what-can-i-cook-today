@@ -42,20 +42,16 @@ export function DemoPage() {
           accept="image/png, image/jpeg"
           onChange={event => setFile(event.target.files ? event.target.files[0] : null)}
         />
-        <div>
-          <button className="btn btn-primary" onClick={generateRecipe}>
-            Upload
-          </button>
-        </div>
-      </div>
-
-      {loading && (
-        <>
-          <div className="w-full flex justify-center items-center">
-            <Loading />
+        {loading ? (
+          <Loading />
+        ) : (
+          <div>
+            <button className="btn btn-primary" onClick={generateRecipe}>
+              Upload
+            </button>
           </div>
-        </>
-      )}
+        )}
+      </div>
 
       {recipe && (
         <div className="flex flex-col items-center px-4 py-2 md:px-20 md:py-10">
