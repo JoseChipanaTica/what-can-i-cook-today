@@ -1,7 +1,7 @@
 import { imageDataExtraction } from '@/managers/recipe-generation'
 import { generateRecipeImage } from '@/managers/recipe-image-generation'
 
-export const maxDuration = 60 * 2
+export const maxDuration = 120
 
 export async function POST(request: Request) {
   try {
