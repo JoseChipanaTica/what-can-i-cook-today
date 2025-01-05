@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WhatCanICook
 
-## Getting Started
+WhatCanICook is a web app that helps you generate recipes based on the ingredients you have at home. Simply upload a photo of your ingredients, and the app will create a personalized recipe for you. Built with **Next.js** and powered by **OpenAI** for smart recipe generation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📸 **Image Recognition**: Upload an image of your ingredients to get started.
+- 🍳 **AI-Generated Recipes**: Receive personalized recipes instantly based on your available ingredients.
+- 🛠 **Built with Next.js**: High performance and SEO-friendly web application framework.
+- 🧠 **Powered by OpenAI**: Advanced AI-driven recipe suggestions.
+- ♻️ **Reduce Food Waste**: Make use of what you have at home.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Frontend**: [Next.js](https://nextjs.org/)
+- **Backend**: [OpenAI API](https://openai.com/api/)
+- **Styling**: Tailwind CSS or your preferred CSS framework
+- **Image Upload/Processing**: Cloudinary, Firebase, or other services
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to set up the project locally:
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
+- [OpenAI](https://openai.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/whatcanicook.git
+   cd whatcanicook
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm run dev
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+## Deployment
+
+To deploy WhatCanICook using Next.js:
+
+1. Build the application:
+
+   ```bash
+   pnpm run build
+   ```
+
+2. Start the production server:
+
+   ```bash
+   pnpm start
+   ```
+
+3. For hosting, you can use platforms like [Vercel](https://vercel.com/). Simply connect your repository and follow their deployment guides.
+
+## License
+
+WhatCanICook is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the license terms.
+
+## Contact
+
+For questions, feedback, or suggestions, feel free to reach out:
+
+- Email: josepaulct@gmail.com
+- X: [@JosePaulCT](https://x.com/josepaulct)
+
+---
